@@ -1,0 +1,9 @@
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\bin\Debug\netstandard2.0\PRPCRepository.deps.json
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\bin\Debug\netstandard2.0\PRPCRepository.dll
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\bin\Debug\netstandard2.0\PRPCRepository.pdb
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\obj\Debug\netstandard2.0\PRPCRepository.csprojAssemblyReference.cache
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\obj\Debug\netstandard2.0\PRPCRepository.csproj.CoreCompileInputs.cache
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\obj\Debug\netstandard2.0\PRPCRepository.AssemblyInfoInputs.cache
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\obj\Debug\netstandard2.0\PRPCRepository.AssemblyInfo.cs
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\obj\Debug\netstandard2.0\PRPCRepository.dll
+D:\jeff\Dropbox\CIS\CIDM\CIDM4390\2019-Spring\Code\PRPCOneRide\PRPCRepository\obj\Debug\netstandard2.0\PRPCRepository.pdb
