@@ -1,5 +1,12 @@
 # Steps for __RazorPagesTutorialWithIdentity__
 
+**Objective**: To create a ASP.NET Core 2.2 Razor Pages app with Identity and publish it to Azure.  Further, switch between Development and Production configurations.
+
+*Steps*:
+1. Create a Razor Pages app configured with Identity
+2. How to "steal" other web pages and re-create them in Razor Pages
+3. Publish your ASP.NET Core app as an App Service on Azure
+
 ## Step One: [Create webapp with Identity](https://docs.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-2.2&tabs=netcore-cli)
 
 1. Create a directory for your app: `mkdir MyApp`
@@ -76,3 +83,7 @@
         }
       ```
     * Check the behavior: If you are signed in, sign out. Run the app and select the Privacy link. You are redirected to the login page.
+
+## Step Two: [Create an ASP.NET Core app in App Service](https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-dotnetcore)
+
+1. 
