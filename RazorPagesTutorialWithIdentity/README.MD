@@ -88,3 +88,4 @@
 
 1. Azure testing
 2. make sure you place `app.UseDeveloperExceptionPage();` outside of the if statement for development mode in the config in startup
+3. Also, follow the advice here: [Azure Web Sites Git Deploy For Multiple Project Solutions](https://www.devtrends.co.uk/blog/azure-web-sites-git-deploy-for-multiple-project-solutions). See here too [Kudu Customizing Deployments](https://github.com/projectkudu/kudu/wiki/Customizing-deployments)
