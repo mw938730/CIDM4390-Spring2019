@@ -87,5 +87,8 @@
 ## Step Two: [Create an ASP.NET Core app in App Service](https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-dotnetcore)
 
 1. Azure testing
-2. make sure you place `app.UseDeveloperExceptionPage();` outside of the if statement for development mode in the config in startup
+2. make sure you place `app.UseDeveloperExceptionPage();` outside of the if statement for development mode in the config in startup [Five Methods To Deal With Errors In ASP.NET Core](http://www.binaryintellect.net/articles/17841890-a0a2-4094-aabe-1ae85641609c.aspx)
 3. Also, follow the advice here: [Azure Web Sites Git Deploy For Multiple Project Solutions](https://www.devtrends.co.uk/blog/azure-web-sites-git-deploy-for-multiple-project-solutions). See here too [Kudu Customizing Deployments](https://github.com/projectkudu/kudu/wiki/Customizing-deployments)
+4. [MySQL Entity Framework Core Support](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/) - `dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.15`
+5.     //"DefaultConnection": "DataSource=\\app.db"
+Ahu1m4nu!
