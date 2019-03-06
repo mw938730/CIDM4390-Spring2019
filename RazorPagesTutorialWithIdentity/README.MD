@@ -87,3 +87,4 @@
 ## Step Two: [Create an ASP.NET Core app in App Service](https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-dotnetcore)
 
 1. Azure testing
+2. make sure you place `app.UseDeveloperExceptionPage();` outside of the if statement for development mode in the config in startup
