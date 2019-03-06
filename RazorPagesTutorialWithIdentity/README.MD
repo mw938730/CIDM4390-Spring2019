@@ -86,4 +86,4 @@
 
 ## Step Two: [Create an ASP.NET Core app in App Service](https://docs.microsoft.com/en-us/azure/app-service/containers/quickstart-dotnetcore)
 
-1. Azure test
+1. Azure testing
