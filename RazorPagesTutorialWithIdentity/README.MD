@@ -91,3 +91,4 @@
 3. Also, follow the advice here: [Azure Web Sites Git Deploy For Multiple Project Solutions](https://www.devtrends.co.uk/blog/azure-web-sites-git-deploy-for-multiple-project-solutions). See here too [Kudu Customizing Deployments](https://github.com/projectkudu/kudu/wiki/Customizing-deployments)
 4. [MySQL Entity Framework Core Support](https://www.nuget.org/packages/MySql.Data.EntityFrameworkCore/) - `dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.15`
 5.     //"DefaultConnection": "DataSource=\\app.db"
+6. more to come
