@@ -1,2 +1,2 @@
 [config]
-RazorPagesTutorial/RazorPagesTutorial.csproj
+project = RazorPagesTutorial/RazorPagesTutorial.csproj
