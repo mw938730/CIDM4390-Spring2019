@@ -1,0 +1,13 @@
+﻿@page
+@model sendgridexample.Email.ResultModel
+@{
+}
+<p>
+    Data:
+</p>
+<p>
+    Email Status:  @TempData["ResponseCode"] <br />    
+    Email Address: @TempData["EmailAddress"] <br />
+    Email Subject: @TempData["EmailSubject"] <br />
+    Email Message: @TempData["EmailMessage"] <br />
+</p>

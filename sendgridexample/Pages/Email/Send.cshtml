@@ -1,20 +1,20 @@
 ﻿@page
-@model MyApp.Namespace.SendModel
+@model sendgridexample.Email.SendModel
 @{
 }
 
-<form>
+<form method="POST">
     <div class="form-group">
-        <label for="emailInput">Email address</label>
-        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+        <label asp-for="Email.Email">Email address</label>
+        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" asp-for="Email.Email">
     </div>
     <div class="form-group">
-        <label for="subjectInput">Subject</label>
-        <input type="text" class="form-control" id="subjectInput" placeholder="Your subject here...">
+        <label asp-for="Email.Subject">Subject</label>
+        <input type="text" class="form-control" id="subjectInput" placeholder="Your subject here..." asp-for="Email.Subject">
     </div>    
     <div class="form-group">
-        <label for="exampleFormControlTextarea1">Email Message</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <label asp-for="Email.Message">Email Message</label>
+        <textarea class="form-control" rows="3" asp-for="Email.Message"></textarea>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
