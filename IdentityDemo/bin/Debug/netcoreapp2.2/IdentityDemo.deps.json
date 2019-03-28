@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "9a767291c004ae5ab45abe6104a8f2827223bd8c"
+    "signature": "97b7676e2d29728baef4564a0548562558cccfea"
   },
   "compilationOptions": {
     "defines": [
@@ -29,13 +29,29 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.3",
           "Microsoft.NETCore.App": "2.2.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
-          "Pomelo.EntityFrameworkCore.MySql": "2.2.0"
+          "Pomelo.EntityFrameworkCore.MySql": "2.2.0",
+          "Sendgrid": "9.10.0",
+          "dotenv.net": "1.0.4"
         },
         "runtime": {
           "IdentityDemo.dll": {}
         },
         "compile": {
           "IdentityDemo.dll": {}
+        }
+      },
+      "dotenv.net/1.0.4": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/dotenv.net.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/dotenv.net.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -356,6 +372,21 @@
         },
         "compile": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "Sendgrid/9.10.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {
+            "assemblyVersion": "9.10.0.0",
+            "fileVersion": "9.10.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/SendGrid.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_green/1.1.12": {
@@ -3763,6 +3794,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "dotenv.net/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kiZlyBQRNlPV8cQV0F/B8MJBvl52N6l7qVVd3AOHiux89VJLRd1JRuA3ktIw43r5S1y1IjdGyCMiQI/wmpRSRA==",
+      "path": "dotenv.net/1.0.4",
+      "hashPath": "dotenv.net.1.0.4.nupkg.sha512"
+    },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3916,6 +3954,13 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "Sendgrid/9.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G8CYo0oPP/on1D3QNfU27GMLCEUIii8/nGTLGnbmrddrRaRShdxpCHWZhxr02cwZDwAsx0WBCi+IjbJ+DpQo0A==",
+      "path": "sendgrid/9.10.0",
+      "hashPath": "sendgrid.9.10.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_green/1.1.12": {
       "type": "package",

@@ -17,6 +17,7 @@ using Microsoft.Extensions.DependencyInjection;
 using IdentityDemo.Areas.Identity.Data;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
+using dotenv.net;
 
 
 namespace IdentityDemo
@@ -26,6 +27,7 @@ namespace IdentityDemo
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            DotEnv.Config();
         }
 
         public IConfiguration Configuration { get; }

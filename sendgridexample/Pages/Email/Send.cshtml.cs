@@ -18,8 +18,10 @@ namespace sendgridexample.Email
         public async Task<string> SendEmail(string email, string subject, string message)
         {
             var apiKey = Environment.GetEnvironmentVariable("SENDGRID_API_KEY");
+            var fromAddress = Environment.GetEnvironmentVariable("SENDGRID_FROM_ADDRESS");
+            var fromAddressAlias = Environment.GetEnvironmentVariable("SENDGRID_FROM_ADDRESS_ALIAS");
             var client = new SendGridClient(apiKey);
-            var from = new EmailAddress("jeff@babbster.net", "Babbster");
+            var from = new EmailAddress(fromAddress, fromAddressAlias);
             //var subject = "Sending with SendGrid is Fun";
             var to = new EmailAddress(email, "The Dude");
             var plainTextContent = message;
