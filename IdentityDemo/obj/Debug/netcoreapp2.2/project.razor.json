@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\jeff\\Dropbox\\CIS\\CIDM\\CIDM4390\\2019-Spring\\Code\\IdentityDemo\\IdentityDemo.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "MVC-2.1",
+    "LanguageVersion": "2.1",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-2.1"
+      }
+    ]
+  }
+}
